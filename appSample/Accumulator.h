@@ -13,5 +13,6 @@
 @property (nonatomic, readonly) int count;
 
 -(void)increaseCount;
-
+-(void)decreaseCount;
+    
 @end

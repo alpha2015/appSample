@@ -28,4 +28,8 @@
     count++;
 }
 
+-(void)decreaseCount{
+    count--;
+}
+
 @end

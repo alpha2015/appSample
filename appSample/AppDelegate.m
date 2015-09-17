@@ -25,8 +25,7 @@
     [window makeKeyAndVisible];
     [self setWindow:window];
     
-//    ViewController *viewController = [[ViewController alloc] initWithNibName:nil bundle:nil];
-    ViewController *viewController = [[ViewController alloc] init];
+    ViewController *viewController = [[ViewController alloc] initWithNibName:nil bundle:nil];
     
     [[viewController view] setBackgroundColor:[UIColor blueColor]];
     
