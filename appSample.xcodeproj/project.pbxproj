@@ -10,10 +10,11 @@
 		DE8FE42E1BA11A8F007C9845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE42D1BA11A8F007C9845 /* main.m */; };
 		DE8FE4311BA11A8F007C9845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4301BA11A8F007C9845 /* AppDelegate.m */; };
 		DE8FE4341BA11A8F007C9845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4331BA11A8F007C9845 /* ViewController.m */; };
-		DE8FE4371BA11A8F007C9845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8FE4351BA11A8F007C9845 /* Main.storyboard */; };
 		DE8FE4391BA11A8F007C9845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8FE4381BA11A8F007C9845 /* Images.xcassets */; };
 		DE8FE43C1BA11A8F007C9845 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8FE43A1BA11A8F007C9845 /* LaunchScreen.xib */; };
 		DE8FE4481BA11A8F007C9845 /* appSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4471BA11A8F007C9845 /* appSampleTests.m */; };
+		DE8FE4611BAA597E007C9845 /* Accumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4601BAA597E007C9845 /* Accumulator.m */; };
+		DE8FE46A1BAA8E6A007C9845 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8FE4691BAA8E6A007C9845 /* ChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,15 @@
 		DE8FE4301BA11A8F007C9845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DE8FE4321BA11A8F007C9845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DE8FE4331BA11A8F007C9845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DE8FE4361BA11A8F007C9845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE8FE4381BA11A8F007C9845 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DE8FE43B1BA11A8F007C9845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DE8FE4411BA11A8F007C9845 /* appSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8FE4461BA11A8F007C9845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE8FE4471BA11A8F007C9845 /* appSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appSampleTests.m; sourceTree = "<group>"; };
+		DE8FE45F1BAA597E007C9845 /* Accumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accumulator.h; sourceTree = "<group>"; };
+		DE8FE4601BAA597E007C9845 /* Accumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accumulator.m; sourceTree = "<group>"; };
+		DE8FE4681BAA8E6A007C9845 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		DE8FE4691BAA8E6A007C9845 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +89,13 @@
 				DE8FE4301BA11A8F007C9845 /* AppDelegate.m */,
 				DE8FE4321BA11A8F007C9845 /* ViewController.h */,
 				DE8FE4331BA11A8F007C9845 /* ViewController.m */,
-				DE8FE4351BA11A8F007C9845 /* Main.storyboard */,
 				DE8FE4381BA11A8F007C9845 /* Images.xcassets */,
 				DE8FE43A1BA11A8F007C9845 /* LaunchScreen.xib */,
 				DE8FE42B1BA11A8F007C9845 /* Supporting Files */,
+				DE8FE45F1BAA597E007C9845 /* Accumulator.h */,
+				DE8FE4601BAA597E007C9845 /* Accumulator.m */,
+				DE8FE4681BAA8E6A007C9845 /* ChildViewController.h */,
+				DE8FE4691BAA8E6A007C9845 /* ChildViewController.m */,
 			);
 			path = appSample;
 			sourceTree = "<group>";
@@ -199,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8FE4371BA11A8F007C9845 /* Main.storyboard in Resources */,
 				DE8FE43C1BA11A8F007C9845 /* LaunchScreen.xib in Resources */,
 				DE8FE4391BA11A8F007C9845 /* Images.xcassets in Resources */,
 			);
@@ -219,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8FE4611BAA597E007C9845 /* Accumulator.m in Sources */,
 				DE8FE4341BA11A8F007C9845 /* ViewController.m in Sources */,
+				DE8FE46A1BAA8E6A007C9845 /* ChildViewController.m in Sources */,
 				DE8FE4311BA11A8F007C9845 /* AppDelegate.m in Sources */,
 				DE8FE42E1BA11A8F007C9845 /* main.m in Sources */,
 			);
@@ -244,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE8FE4351BA11A8F007C9845 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE8FE4361BA11A8F007C9845 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE8FE43A1BA11A8F007C9845 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = appSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = appSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +420,7 @@
 				DE8FE44D1BA11A8F007C9845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE8FE44E1BA11A8F007C9845 /* Build configuration list for PBXNativeTarget "appSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +429,7 @@
 				DE8FE4501BA11A8F007C9845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

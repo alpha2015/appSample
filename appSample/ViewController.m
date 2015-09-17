@@ -13,15 +13,37 @@
 @end
 
 @implementation ViewController
+{
+    ChildViewController *childViewController;
+}
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        childViewController = [[ChildViewController alloc] initWithNibName:nil bundle:nil];
+    }
+    return self;
+}
+
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        childViewController = [[ChildViewController alloc] initWithNibName:nil bundle:nil];
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [[self view] setBackgroundColor:[UIColor blueColor]];
+    
+    [self addChildViewController:childViewController];
+    [[self view] addSubview:[childViewController view]];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
